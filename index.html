@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3 class="typewriter">Internship Registration <br>Form</h3>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter Name" id="name" required>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter Email" id="email" required>
+        <label for="password">Password (optional)</label>
+        <input type="password" placeholder="Enter Password" id="password" required>
+        <label for="contact-number">Contact Number</label>
+        <input type="tel" placeholder="Enter Contact Number" id="contact-number" required>
+        <label for="college">College Name</label>
+        <input type="text" placeholder="Enter College Name" id="college" required>
+        <label for="department">Department</label>
+        <input type="text" placeholder="Enter Department" id="department" required>
+
+        <label for="year">Year :</label>
+        <div class="radio-group" id="year">
+            <label for="1st-year"><input type="radio" name="year" value="1st Year" id="1st-year" required>1st Year</label>
+            <label for="2nd-year"><input type="radio" name="year" value="2nd Year" id="2nd-year" required>2nd Year</label>
+            <label for="3rd-year"><input type="radio" name="year" value="3rd Year" id="3rd-year" required>3rd Year</label>
+            <label for="4th-year"><input type="radio" name="year" value="4th Year" id="4th-year" required>4th Year</label>
+        </div>
+
+        <label for="domain">Domain of Interest :</label>
+        <div class="radio-group" id="domain">
+            <label for="android-development"><input type="radio" name="domain" value="Android Development" id="android-development">Android Development</label>
+            <label for="ai"><input type="radio" name="domain" value="AI" id="ai">Artificial Intelligence</label>
+            <label for="autocad-civil"><input type="radio" name="domain" value="AutoCAD Civil" id="autocad-civil">AutoCAD Civil</label>
+            <label for="cyber-security"><input type="radio" name="domain" value="Cyber Security & Ethical Hacking" id="cyber-security">Cyber Security & Ethical Hacking</label>
+            <label for="data-science"><input type="radio" name="domain" value="Data Science" id="data-science">Data Science</label>
+            <label for="iot"><input type="radio" name="domain" value="IoT" id="iot">Internet Of Things</label>
+            <label for="ml"><input type="radio" name="domain" value="ML" id="ml">Machine Learning</label>
+            <label for="web-development"><input type="radio" name="domain" value="Web Development" id="web-development">Web Development</label>
+            <label for="cloud-computing"><input type="radio" name="domain" value="Cloud Computing" id="cloud-computing">Cloud Computing</label>
+        </div>
+        <label for="month">Month in which you want program :</label>
+        <div class="radio-group" id="month">
+            <label for="may"><input type="radio" name="month" value="may" id="may" required>May</label>
+            <label for="june"><input type="radio" name="month" value="june" id="june" required>June</label>
+            <label for="july"><input type="radio" name="month" value="july" id="july" required>July</label>
+            <label for="others"><input type="radio" name="month" value="others" id="others" required>others</label>
+        </div>
+        <div id="btn">
+            <button type="submit">Register</button>
+        </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
